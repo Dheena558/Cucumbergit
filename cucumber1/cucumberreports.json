@@ -1,0 +1,71 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T07:03:05.227Z",
+        "line": 6,
+        "name": "Success",
+        "description": "",
+        "id": "login;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "userenters \"sam\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "enters\"dheen\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user click on login button",
+            "match": {
+              "location": "Login.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "homepage displayed",
+            "match": {
+              "location": "Login.homepage_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber2/login.feature",
+    "tags": []
+  }
+]
